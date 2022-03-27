@@ -32,6 +32,7 @@ The constraints which regard the technology used must utilise the technology dis
 * Cloud server: GCP Compute Engine.
 
  ### My approach
+ Considering all this information, I have decided on creating a bodybuilding app which satisfies all the requirements above.
  CRUD
  MoSCow
 
@@ -59,5 +60,14 @@ Trello kanban board
 ## Future improvements
 
 ## Licensing
+This app will be licensed with the Apache License 2.0. Under this license, the users are allowed to:
+
+* Use the code commercially.
+* Alter the code.
+* Distribute ay copies or modifications of the code.
+* Sublicense the code.
+* Use patent claims.
+* Place warranty.
 
 ## Author
+Nasir Shariff
