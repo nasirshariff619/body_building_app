@@ -34,7 +34,7 @@ The constraints which regard the technology used must utilise the technology dis
  ### My approach
  Considering all this information, I have decided on creating a bodybuilding app which satisfies all the requirements above.
  CRUD
- MoSCow
+ MoSCoW ( login functionality?)
 
 
 
@@ -42,6 +42,8 @@ The constraints which regard the technology used must utilise the technology dis
 
 ### Database Structure
 ERD
+![ERD](images/body_building_app%20ERD.jpg)
+
 ### CI pipeline
 ### Stage View???
 
