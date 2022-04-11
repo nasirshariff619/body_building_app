@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h2>Here are your exercises:</h2>
+{% for exercise in all_exercises %}
+<p>
+    Workout ID: {{ exercise.workout_id}}<br>
+    Exercise name: {{ exercise.exercise_name }}<br>
+    Sets per exercise: {{ exercise.sets_per_exercise }}<br>
+    Reps per set: {{ exercise.reps_per_set}}<br>
+</p>
+{% endfor %}
+{% endblock body %}

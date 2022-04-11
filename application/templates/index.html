@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h2>Here are your workouts:</h2>
+{% for workout in all_workouts %}
+<p>
+    Workout ID: {{ workout.workout_id }}<br>
+    Muscle group: {{ workout.workout_muscle_group }}<br>
+    Completed: {{ workout.completed }}<br>
+    Duration: {{ workout.duration}}<br>
+    <i>{{ workout.date }}</i><br>
+    {% if workout.completed == False %}
+    <a href="{{ url_for('complete_workout', completed=True, id=workout.workout_id) }}">Complete</a>
+    {% else %}
+    <a href="{{ url_for('complete_workout', completed=False, id=workout.workout_id) }}">Incomplete</a>
+    {% endif %}
+    <a href="{{ url_for('edit_workout', id=workout.workout_id) }}">Edit</a>
+    <a href="{{ url_for('delete_workout', id=workout.workout_id) }}">Delete</a>
+    <a href="{{ url_for('new_exercise', id=workout.workout_id) }}">Add Exercise</a>
+    <a href="{{ url_for('view_exercise', id=workout.workout_id) }}">View Exercise(s)</a>
+</p>
+{% endfor %}
+{% endblock body %}

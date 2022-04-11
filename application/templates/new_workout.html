@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<form method="POST" action="">
+    {{ form.hidden_tag() }}
+    {{ form.workout_muscle_group.label}}: {{ form.workout_muscle_group }}
+    {{ form.duration.label}}: {{ form.duration }}
+    {{ form.submit }}
+</form>
+{% endblock body %}

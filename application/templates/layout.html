@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <title>Body Building App</title>
+</head>
+<body>
+    <navbar>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('new_workout') }}">Add a Workout</a>
+    </navbar>
+    <h1>My Workouts</h1>
+    {% block body %}
+    {% endblock body %}
+</body>
