@@ -26,10 +26,7 @@ class ExerciseForm(FlaskForm):
         'Reps per set', 
         validators=[DataRequired(), Length(max=30)]
     )
-#    workout_id = StringField(
-#        'workout_id', 
-#        validators=[DataRequired(), Length(max=30)]
-#    )
+    
     workout_id = IntegerField(
         'Workout ID', 
         validators=[DataRequired(), Length(max=30)]
