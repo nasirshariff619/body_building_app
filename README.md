@@ -17,7 +17,7 @@
 * A functional CRUD application created in python which meet requirements set out on kanban board.
 * Fully designed test suites for the application being created, as well as automated tests for the validation of the application. High test coverage must be provided in the backend. Consistent reports and evidence must be provided to support a TDD(Test Driven Development) approach.
 * A functioning front-end website and integrates API's(Application Programming Interface), using Flask.
-* Code fully integrated into a Version Control System using the Feature-Branch model which will subsequentkly be built through a CI(Continuous Integration) server and deployed to a cloud-based virtual machine.
+* Code fully integrated into a Version Control System using the Feature-Branch model which will subsequently be built through a CI(Continuous Integration) server and deployed to a cloud-based virtual machine.
 
 The constraints which regard the technology used must utilise the technology discussed during training, which are as follows:
 
