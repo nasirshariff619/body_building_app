@@ -40,7 +40,7 @@ The constraints which regard the technology used must utilise the technology dis
 ### Database Structure
 ERD
 
-![ERD](images/body_building_app%20ERD%20(1).jpg)
+![ERD](images/erd1(1).jpg)
 
 ### CI pipeline
 ### Stage View???
