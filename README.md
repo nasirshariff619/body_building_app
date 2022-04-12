@@ -39,7 +39,7 @@ The constraints which regard the technology used must utilise the technology dis
 ## Design
 ### Database Structure
 ERD
-![erd1 (1)](https://user-images.githubusercontent.com/101716216/162983012-cb74b18d-c1a3-4698-9496-43f879faced9.jpg)
+![erd1 (2)](https://user-images.githubusercontent.com/101716216/162990595-5a5ac398-7cb4-40c5-b25c-bbba29301b90.jpg)
 
 
 
