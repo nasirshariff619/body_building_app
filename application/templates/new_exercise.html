@@ -3,10 +3,10 @@
 {% block body %}
 <form method="POST" action="">
     {{ form.hidden_tag() }}
-    {{ form.exercise_name.label}}: {{ form.exercise_name }}
-    {{ form.sets_per_exercise.label}}: {{ form.sets_per_exercise }}
-    {{ form.reps_per_set.label}}: {{ form.reps_per_set }}
-    {{ form.workout_id.label}}: {{ form.workout_id }}
-    {{ form.submit }}
+    {{ form.exercise_name.label}}: {{ form.exercise_name }}<br>
+    {{ form.sets_per_exercise.label}}: {{ form.sets_per_exercise }}<br>
+    {{ form.reps_per_set.label}}: {{ form.reps_per_set }}<br>
+    {{ form.workout_id.label}}: {{ form.workout_id }}<br>
+    {{ form.submit }}<br>
 </form>
 {% endblock body %}
