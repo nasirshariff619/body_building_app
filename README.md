@@ -43,7 +43,6 @@ ERD
 
 
 
-![ERD](images/erd1(1).jpg)
 
 
 ### CI pipeline
