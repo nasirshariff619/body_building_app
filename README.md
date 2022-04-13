@@ -42,7 +42,7 @@
 *  View all of their exercises and see which workouts they belong to (satisfies 'Read').
 
 In the future I would like the user to be able to:
-* Create a user account that contains the following:
+* Create a user account, which allows them to login, that contains the following:
     * Username
     * First name
     * Last name
@@ -53,10 +53,17 @@ In the future I would like the user to be able to:
 
 ## Design
 ### Database Structure
-ERD
-![erd1 (3)](https://user-images.githubusercontent.com/101716216/163198741-21c7f220-2aac-46b0-9428-3351c1468bc8.jpg)
+The following image is an entitiy relationship diagram (ERD) which depicts the database structure.
 
+![erd1 (4)](https://user-images.githubusercontent.com/101716216/163208757-c1924820-b62d-42dd-a9d3-ba21d8adb143.jpg)
 
+The ERD models a one and only one to many relationship between the two databases. This means that a workout can have many exercises, however an exercise can only belong to one workout.
+
+If the application was to be developed further, implementing user login, the proposed ERD is as follows.
+
+![erd2](https://user-images.githubusercontent.com/101716216/163207805-0a4a3126-bb4d-48d6-b377-2923d93593cf.jpg)
+
+This ERD builds upon the initial ERD by adding a user database which models a one and only one to many relationship between user and workouts. This means that a user can have many workouts but a workout can only belong to one user.
 
 
 
