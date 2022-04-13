@@ -42,23 +42,12 @@ class TestCreate(TestBase):
                 ),
             )
 
-class TestRead(TestBase):
+class TestRead(TestBase): #might delete
     def test_workouts_read(self):
         response = self.client.get(url_for('index'))
 
-class TestDelete(TestBase):
-    def test_workouts_delete(self):
+class TestDelete(TestBase): 
+    def test_workout_delete(self):
         response = self.client.get(url_for('delete_workout', id=1))
+        self.assertNotIn(response.data, b'Test Delete')
 
-
-#class TestUpdate(TestBase):
-    #def test_edit_get():
-        #with self.client:
-            #response = self.client.post('/edit/1',
-            #data=dict(
-            #workout_muscle_group='Test1', 
-            #duration='Test1'
-        #),
-        #follow_redirects=True
-        #)
-        #self.assertIn(b'Test1', response.data)
