@@ -76,6 +76,8 @@ Trello kanban board
 
 ## Risk Assessment
 
+https://docs.google.com/spreadsheets/d/1JIp9C9an2-_RyMoEPWRPlTL4jtTo7_CW/edit?usp=sharing&ouid=109921713876439168912&rtpof=true&sd=true
+
 ## Testing
 
 ## Front-End Design
