@@ -19,27 +19,42 @@
 * A functioning front-end website and integrates API's(Application Programming Interface), using Flask.
 * Code fully integrated into a Version Control System using the Feature-Branch model which will subsequently be built through a CI(Continuous Integration) server and deployed to a cloud-based virtual machine.
 
-The constraints which regard the technology used must utilise the technology discussed during training, which are as follows:
 
-* Kanban Board: Trello or an equivalent Kanban Board.
-* Database: GCP SQL Server or other Cloud Hosted managed Database.
-* Programming language: Python.
-* Unit Testing with Python (Pytest).
-* Integration Testing with Python (Selenium).
-* Front-end: Flask (HTML).
-* Version Control: Git.
-* CI Server: Jenkins.
-* Cloud server: GCP Compute Engine.
 
  ### My approach
- Considering all this information, I have decided on creating a bodybuilding app which satisfies all the requirements above.
- CRUD
- MoSCoW ( login functionality?)
+ Considering all this information, I have decided on creating a bodybuilding app which satisfies all the requirements above. The app will allow the user to do the following:
+ 
+ * Create a post of their workout (satisfies 'Create') which contains the following:
+    * The workout muscle group
+    * The duration of the workout
+*  View all their workouts (satisfies 'Read') and the following:
+    * The workout ID
+    * The workout muscle group
+    * The workout duration 
+    * Whether or not the workout is completed (completed:True/False)
+*   Update any of their workouts (satisfies 'Update').
+*   Delete any of their workouts (satisfies 'Delete').
+*  Create a post of their exercises within the workout (satisfies 'Create') which contains the following:
+    * Workout ID
+    * Exercise name
+    * Sets per exercise
+    * Reps per set
+*  View all of their exercises and see which workouts they belong to (satisfies 'Read').
+
+In the future I would like the user to be able to:
+* Create a user account that contains the following:
+    * Username
+    * First name
+    * Last name
+    * Email 
+    * Password
+* Update their exercises.
+* Delete their exercises.
 
 ## Design
 ### Database Structure
 ERD
-![erd1 (2)](https://user-images.githubusercontent.com/101716216/162990595-5a5ac398-7cb4-40c5-b25c-bbba29301b90.jpg)
+![erd1 (3)](https://user-images.githubusercontent.com/101716216/163198741-21c7f220-2aac-46b0-9428-3351c1468bc8.jpg)
 
 
 
