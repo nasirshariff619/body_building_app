@@ -2,7 +2,11 @@
  
 ## Contents
 
-## Brief
+*   [Brief](#brief-a-name"brief"a)
+
+
+## Brief <a name="Brief"></a>
+
  My overall objective during the completin of this project is to create a CRUD(create, Read, update and delete) application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training.
 
  This enables the trainers to assess our capabilty of using the technologies and concepts that have been taught to us.
@@ -52,6 +56,7 @@ In the future I would like the user to be able to:
 * Delete their exercises.
 
 ## Design
+
 ### Database Structure
 The following image is an entitiy relationship diagram (ERD) which depicts the database structure.
 
@@ -82,11 +87,14 @@ As learnt in training, when working on a software project, it is good practise t
 ![image](https://user-images.githubusercontent.com/101716216/163400708-0fdc7188-42a9-45b3-a236-273ddb51a88d.png)
 
 ## Project Tracking
-Epic (user stories to tasks)
+
+The overall tracking of the project was carried out on a kanban board website known as Trello.
+
+An epic was created which displayed user stories and converted them into tasks for the project. A screenshot of the epic board can be seen below.
 
 ![image](https://user-images.githubusercontent.com/101716216/163407735-f96256a3-d388-4b57-9c4e-c08c3b018448.png)
 
-Trello kanban board
+A separate kanban board was created which tracked the progress of each task throughout the project and processed them through different stages. 
 
 ![image](https://user-images.githubusercontent.com/101716216/163407547-21528668-3df2-446a-9d07-a4b59eaaeb9a.png)
 
