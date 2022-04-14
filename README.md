@@ -111,6 +111,8 @@ https://docs.google.com/spreadsheets/d/1JIp9C9an2-_RyMoEPWRPlTL4jtTo7_CW/edit?us
 
 ## Future improvements
 
+## Acknowledgements 
+
 ## Licensing
 This app will be licensed with the Apache License 2.0. Under this license, the users are allowed to:
 
