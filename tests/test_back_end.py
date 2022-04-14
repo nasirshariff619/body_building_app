@@ -30,6 +30,9 @@ class TestViews(TestBase):
         response = self.client.get(url_for('new_workout'))
         self.assertEqual(response.status_code, 200)
 
+    def test_workouts_read(self):
+        response = self.client.get(url_for('index'))
+    
     
 class TestCreate(TestBase):
     def test_workouts_add(self):
@@ -42,9 +45,6 @@ class TestCreate(TestBase):
                 ),
             )
 
-class TestRead(TestBase): #might delete
-    def test_workouts_read(self):
-        response = self.client.get(url_for('index'))
 
 class TestDelete(TestBase): 
     def test_workout_delete(self):
