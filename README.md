@@ -83,7 +83,13 @@ As learnt in training, when working on a software project, it is good practise t
 
 ## Project Tracking
 Epic (user stories to tasks)
+
+![image](https://user-images.githubusercontent.com/101716216/163407735-f96256a3-d388-4b57-9c4e-c08c3b018448.png)
+
 Trello kanban board
+
+![image](https://user-images.githubusercontent.com/101716216/163407547-21528668-3df2-446a-9d07-a4b59eaaeb9a.png)
+
 
 ## Risk Assessment
 
