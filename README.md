@@ -74,7 +74,7 @@ This ERD builds upon the initial ERD by adding a user database which models a on
 
 ### CI Pipeline
 
-![ci pipeline](https://user-images.githubusercontent.com/101716216/163386172-9e676c16-1dc0-4cc5-9840-aebdbb1aa0fc.jpg)
+![Untitled Diagram](https://user-images.githubusercontent.com/101716216/163482569-fdf17865-2b59-44a9-a50d-e28137b3bc6a.jpg)
 
 The image above displays the continuous integration (CI) pipeline. The CI pipeline is a vital part of the project. It maintains a single source code repositry to work from to keep everything organised. It possesses a master/main branch which is always ready to deploy and feature branches where developments can be made. Build process and testing are all automated. The CI pipeline also keeps team members informed of every update on the version control system. Overall the CI pipeline encourages smaller and more frequent deployments of code to aid the improvement of a software.
 
