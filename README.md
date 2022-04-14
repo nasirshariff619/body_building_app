@@ -67,8 +67,15 @@ This ERD builds upon the initial ERD by adding a user database which models a on
 
 
 
-### CI pipeline
-### Stage View???
+### CI Pipeline
+
+![ci pipeline](https://user-images.githubusercontent.com/101716216/163386172-9e676c16-1dc0-4cc5-9840-aebdbb1aa0fc.jpg)
+
+The image above displays the continuous integration (CI) pipeline. The CI pipeline is a vital part of the project. It maintains a single source code repositry to work from to keep everything organised. It possesses a master/main branch which is always ready to deploy and feature branches where developments can be made. Build process and testing are all automated. The CI pipeline also keeps team members informed of every update on the version control system. Overall the CI pipeline encourages smaller and more frequent deployments of code to aid the improvement of a software.
+
+With the body building app in particular, once the source code has been pushed to the version control system and the project tracking has been maintained, the CI server uses a webhook to pull the changes and run automated tests on the updated application. Once the test phase has been passes successfully, the application is deployed onto a live environment
+
+### Feature Branch Model
 
 ## Project Tracking
 Epic (user stories to tasks)
