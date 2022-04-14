@@ -101,7 +101,10 @@ A separate kanban board was created which tracked the progress of each task thro
 
 ## Risk Assessment
 
+The image below shows a quick screenshot of the risk assessment, which was used to assess and analyse the risks that could arise from this project. Here is a link to the full risk assessment:
 https://docs.google.com/spreadsheets/d/1JIp9C9an2-_RyMoEPWRPlTL4jtTo7_CW/edit?usp=sharing&ouid=109921713876439168912&rtpof=true&sd=true
+
+![image](https://user-images.githubusercontent.com/101716216/163474349-a0d7020c-7916-4ce0-a310-8a62a19a4e82.png)
 
 ## Testing
 
