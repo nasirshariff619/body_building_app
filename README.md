@@ -108,6 +108,16 @@ https://docs.google.com/spreadsheets/d/1JIp9C9an2-_RyMoEPWRPlTL4jtTo7_CW/edit?us
 
 ## Testing
 
+Unit testing was carried out on the CRUD application. This was done using pytest and pytest coverage and shown by the output below:
+
+![image](https://user-images.githubusercontent.com/101716216/163479685-7eb1c897-5c46-4c9f-a58c-d504c8b623ec.png)
+
+The python files that were successfully tested and had a coverage of 100% were the __  init  __.py, forms.py and models.py. 
+
+Unfortunately, only 35% coverage of the routes.py file was achieved and only 4 tests were passed. These tests included the app creation, set up and teardown. Another two successful tests were the apps ability to view the new workout page and delete a workout. I made many attempts to increase both the number of tests and the coverage, however I was unsuccessful. Overall, I was only able to to achieve 60% total coverage.
+
+Looking forward, due to the fact this was an topic I was not confident in and not succesful in, I aim to increase my knowledge on unit testing so that, in the future I can achieve 100% pytest coverage.
+
 ## Front-End Design
 
 ## Known Issues
