@@ -77,6 +77,10 @@ With the body building app in particular, once the source code has been pushed t
 
 ### Feature Branch Model
 
+As learnt in training, when working on a software project, it is good practise to implement the feature branch model. This meant that work carried out on the project was done on a development branch, which meant that the code was tested and deployed from this branch before it was merged into the main branch.
+
+![image](https://user-images.githubusercontent.com/101716216/163400708-0fdc7188-42a9-45b3-a236-273ddb51a88d.png)
+
 ## Project Tracking
 Epic (user stories to tasks)
 Trello kanban board
