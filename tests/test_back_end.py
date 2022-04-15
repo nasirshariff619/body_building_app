@@ -59,7 +59,7 @@ class TestDelete(TestBase):
    #         url_for('edit_workout', id=1),
     #        data=dict(workout_muscle_group="Test", duration="Test",
      #       follow_redirects=True)
-      #  self.assertIn(b'Change Game', response.data)
+      #  self.assertIn(b'Test', response.data)
 
 #    def test_edit_exercise(self):
  #       response = self.client.post(
