@@ -29,7 +29,7 @@ def new_exercise(id):
     workout = Workouts.query.get(id)
 
     if request.method == "POST":
-        exercisedata= Exercises(exercise_name = form.exercise_name.data, sets_per_exercise = form.sets_per_exercise.data, reps_per_set = form.sets_per_exercise.data, workout_id = form.workout_id.data)
+        exercisedata= Exercises(exercise_name = form.exercise_name.data, sets_per_exercise = form.sets_per_exercise.data, reps_per_set = form.reps_per_set.data, workout_id = form.workout_id.data)
         db.session.add(exercisedata)
         db.session.commit()
         

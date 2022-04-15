@@ -120,6 +120,27 @@ Looking forward, due to the fact this was an topic I was neither confident or su
 
 ## Front-End Design
 
+The front-end of the website is built using basic HTML. When you first navigate to the website you are presented with the home page.
+
+![image](https://user-images.githubusercontent.com/101716216/163629651-4ed7121e-2278-469c-b02c-c106a2e03527.png)
+
+From here, the user can click on the "Add a Workout" link to take them to a different page whcih allows new workouts to be added.
+
+![image](https://user-images.githubusercontent.com/101716216/163629829-e786a701-732a-41db-acb0-cdd479de6415.png)
+
+Once the user adds the information of the workout of their choice, the can return to the home page to see their new workout added.
+
+![image](https://user-images.githubusercontent.com/101716216/163630077-251f82b1-d570-44de-b809-eeb55af44afc.png)
+
+From here, the user has the option of either editing, deleting or specifying the completion of their workout. Furthermore, they can add exercises to this workout.
+
+![image](https://user-images.githubusercontent.com/101716216/163630261-d6905660-f803-4cb9-8e1d-c0a9b3e40250.png)
+
+Once the addition of the exercise(s) has been completed, the user can navigate back to the home page and click the "View Exercise(s)" under the specific workout, which will take them to a page which displays all the exercises belonging to that workout.
+
+![image](https://user-images.githubusercontent.com/101716216/163631578-94b94ee9-6d35-4e4b-b124-d6156f3a5878.png)
+
+
 ## Future improvements
 
 ## Acknowledgements 

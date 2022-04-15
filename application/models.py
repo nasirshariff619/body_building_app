@@ -14,4 +14,4 @@ class Exercises(db.Model):
     exercise_name = db.Column(db.String(30), nullable=False)
     sets_per_exercise = db.Column(db.String(30), nullable=False)
     reps_per_set = db.Column(db.String(30), nullable=False)
-    workout_id = db.Column(db.Integer, db.ForeignKey('workouts.workout_id'), nullable=False)
+    workout_id = db.Column(db.Integer, db.ForeignKey('workouts.workout_id'))
