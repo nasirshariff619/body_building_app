@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 
 {% block body %}
+<h1>Add Workout</h1>
 <form method="POST" action="">
     {{ form.hidden_tag() }}<br>
     {{ form.workout_muscle_group.label}}: {{ form.workout_muscle_group }}<br>

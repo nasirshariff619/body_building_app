@@ -1,7 +1,7 @@
 from flask_testing import TestCase
 from flask_sqlalchemy import SQLAlchemy
 from application import app, db
-from application.models import Workouts
+from application.models import Workouts, Exercises
 
 from flask import url_for
 
@@ -38,12 +38,12 @@ class TestCreate(TestBase):
     def test_workouts_add(self):
         with self.client:
             response = self.client.post(
-                '/new_workout',
+                'new_workout',
                 data=dict(
                    workout_muscle_group = "test1",
-                   duration = "test1"
-                ),
+                   duration = "test1"),
             )
+            
 
 
 class TestDelete(TestBase): 
@@ -51,3 +51,19 @@ class TestDelete(TestBase):
         response = self.client.get(url_for('delete_workout', id=1))
         self.assertNotIn(response.data, b'Test Delete')
 
+#Doesn't work
+
+#class TestEdit(TestBase):
+ #  def test_edit_workout(self):
+  #      response = self.client.post(
+   #         url_for('edit_workout', id=1),
+    #        data=dict(workout_muscle_group="Test", duration="Test",
+     #       follow_redirects=True)
+      #  self.assertIn(b'Change Game', response.data)
+
+#    def test_edit_exercise(self):
+ #       response = self.client.post(
+  #          url_for('edit_exercise', id=1),
+   #         data=dict(exercise_name="Test", sets_per_exercise="Test", reps_per_set = "Test", workout_id = 1),
+    #        follow_redirects=True)
+     #   self.assertIn(b'Test', response.data)

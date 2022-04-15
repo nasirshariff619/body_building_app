@@ -120,8 +120,6 @@ Looking forward, due to the fact this was an topic I was not confident in and no
 
 ## Front-End Design
 
-## Known Issues
-
 ## Future improvements
 
 ## Acknowledgements 
