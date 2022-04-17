@@ -1,4 +1,4 @@
-# Body Building Application!
+# Body Building Application
  
 ## Contents
 
