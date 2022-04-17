@@ -3,7 +3,20 @@
 ## Contents
 
 *   [Brief](#brief-a-name"brief"a)
-
+    *  [Requirements And Constraints For Minimum Viable Product](#requirements-and-constraints-for-minimum-viable-product-a-name"requirements-and-constraints-for-minimum-viable-product"a) 
+    *   [My Approach](#my-approach-a-name"my-approach"a)
+*   [Design](#design-a-name"design"a)
+    *   [Database Structure](#database-structure-a-name"database-structure"a)
+    *   [CI Pipeline](#ci-pipeline-a-name"ci-pipeline"a)
+    *   [Feature Branch Model](#feature-branch-model-a-name"feature-branch-model"a)
+*   [Project Tracking](#project-tracking-a-name"project-tracking"a)
+*   [Risk Asessment](#risk-assessment-a-name"risk-assessment"a)
+*   [Testing](#testing-a-name"testing"a)
+*   [Front-End Design](#front-end-design-a-name"front-end-design-"a)
+*   [Future Improvements](#future-improvements-a-name"future-improvements"a)
+*   [Acknowledgements](#acknowledgements-a-name"acknowledgements"a)
+*   [Licensing](#licensing-a-name"licensing"a)
+*    [Author](#author-a-name"author"a)
 
 ## Brief <a name="Brief"></a>
 
@@ -11,7 +24,8 @@
 
  This enables the trainers to assess our capabilty of using the technologies and concepts that have been taught to us.
 
- ### Requirements And Constraints For Minimum Viable Product
+ ### Requirements And Constraints For Minimum Viable Product <a name="Requirements And Constraints For Minimum Viable Product"></a>
+
  The requirements set out below are what's needed to create a mininum viable product for our project.
  The requirements of the project are as follows:
 
@@ -25,7 +39,7 @@
 
 
 
- ### My approach
+ ### My Approach <a name="My Approach"></a>
  Considering all this information, I have decided on creating a bodybuilding app which satisfies all the requirements above. The app will allow the user to do the following:
  
  * Create a post of their workout (satisfies 'Create') which contains the following:
@@ -55,9 +69,9 @@ In the future I would like the user to be able to:
 * Update their exercises.
 * Delete their exercises.
 
-## Design
+## Design <a name="Design"></a>
 
-### Database Structure
+### Database Structure <a name="Database Structure"></a>
 The following image is an entitiy relationship diagram (ERD) which depicts the database structure.
 
 ![erd1 (4)](https://user-images.githubusercontent.com/101716216/163208757-c1924820-b62d-42dd-a9d3-ba21d8adb143.jpg)
@@ -72,7 +86,7 @@ This ERD builds upon the initial ERD by adding a user database which models a on
 
 
 
-### CI Pipeline
+### CI Pipeline <a name="CI Pipeline"></a>
 
 ![Untitled Diagram](https://user-images.githubusercontent.com/101716216/163482569-fdf17865-2b59-44a9-a50d-e28137b3bc6a.jpg)
 
@@ -80,13 +94,13 @@ The image above displays the continuous integration (CI) pipeline. The CI pipeli
 
 With the body building app in particular, once the source code has been pushed to the version control system and the project tracking has been maintained, the CI server uses a webhook to pull the changes and run automated tests on the updated application. Once the test phase has been passes successfully, the application is deployed onto a live environment
 
-### Feature Branch Model
+### Feature Branch Model <a name="Feature Branch Model"></a>
 
 As learnt in training, when working on a software project, it is good practise to implement the feature branch model. This meant that work carried out on the project was done on a development branch, which meant that the code was tested and deployed from this branch before it was merged into the main branch.
 
 ![image](https://user-images.githubusercontent.com/101716216/163400708-0fdc7188-42a9-45b3-a236-273ddb51a88d.png)
 
-## Project Tracking
+## Project Tracking <a name="Project Tracking"></a>
 
 The overall tracking of the project was carried out on a kanban board website known as Trello.
 
@@ -99,14 +113,14 @@ A separate kanban board was created which tracked the progress of each task thro
 ![image](https://user-images.githubusercontent.com/101716216/163407547-21528668-3df2-446a-9d07-a4b59eaaeb9a.png)
 
 
-## Risk Assessment
+## Risk Assessment <a name="Risk Assessment"></a>
 
 The image below shows a quick screenshot of the risk assessment, which was used to assess and analyse the risks that could arise from this project. Here is a link to the full risk assessment:
 https://docs.google.com/spreadsheets/d/1JIp9C9an2-_RyMoEPWRPlTL4jtTo7_CW/edit?usp=sharing&ouid=109921713876439168912&rtpof=true&sd=true
 
 ![image](https://user-images.githubusercontent.com/101716216/163474349-a0d7020c-7916-4ce0-a310-8a62a19a4e82.png)
 
-## Testing
+## Testing <a name="Testing"></a>
 
 Unit testing was carried out on the CRUD application. This was done using pytest and pytest coverage and shown by the output below:
 
@@ -118,7 +132,7 @@ Unfortunately, only 35% coverage of the routes.py file was achieved and only 4 t
 
 Looking forward, due to the fact this was an topic I was neither confident or succesful in, I aim to increase my knowledge on unit testing so that, in the future I can achieve 100% pytest coverage.
 
-## Front-End Design
+## Front-End Design <a name="Front-End Design "></a>
 
 The front-end of the website is built using basic HTML. When you first navigate to the website you are presented with the home page.
 
@@ -141,11 +155,19 @@ Once the addition of the exercise(s) has been completed, the user can navigate b
 ![image](https://user-images.githubusercontent.com/101716216/163631578-94b94ee9-6d35-4e4b-b124-d6156f3a5878.png)
 
 
-## Future improvements
+## Future improvements <a name="Future Improvements"></a>
 
-## Acknowledgements 
+The creation of the CRUD application was successful, but there is plenty of room for improvement. In the future, I would like to implement user login functionality. This is so that the user can create a personalised login using their first name, last name, username, email and password.
 
-## Licensing
+Furthermore, the front-end of the application is very plain and simple. Increasing my knowledge on HTML so I can develop the front-end of the application to be more user friendly and attractive, would be very beneficial.
+
+I also want to reiterate my shortcomings on the testing of the back-end of the application. I aim to improve my knowledge on unit testing so that I can increase my test coverage to 100%
+
+## Acknowledgements <a name="Acknowledgements"></a>
+
+I would like to give thanks to the QA trainers that have taught me over the past 5 weeks, providing the learning required to complete this project. I also give thanks to my fellow QA trainees for making the learning experience pleasant and providing help when I needed it.
+
+## Licensing <a name="Licensing"></a>
 This app will be licensed with the Apache License 2.0. Under this license, the users are allowed to:
 
 * Use the code commercially.
@@ -155,7 +177,7 @@ This app will be licensed with the Apache License 2.0. Under this license, the u
 * Use patent claims.
 * Place warranty.
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2022] [Nasir Shariff]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -169,5 +191,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## Author
+## Author <a name="Author"></a>
 Nasir Shariff
