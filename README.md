@@ -16,6 +16,7 @@
 *   [Future Improvements](#future-improvements-a-name"future-improvements"a)
 *   [Acknowledgements](#acknowledgements-a-name"acknowledgements"a)
 *   [Licensing](#licensing-a-name"licensing"a)
+*   [Presentation](#presentation-a-name"presentation"a)
 *    [Author](#author-a-name"author"a)
 
 ## Brief <a name="Brief"></a>
@@ -172,7 +173,7 @@ This app will be licensed with the Apache License 2.0. Under this license, the u
 
 * Use the code commercially.
 * Alter the code.
-* Distribute ay copies or modifications of the code.
+* Distribute any copies or modifications of the code.
 * Sublicense the code.
 * Use patent claims.
 * Place warranty.
@@ -190,6 +191,12 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Presentation <a name="Presentation"></a>
+
+Here is a link to the video presentation:
+https://drive.google.com/file/d/1qKzaFoY5CefsfM4AtbADLSSHoBS6C_Ni/view?usp=sharing
+
 
 ## Author <a name="Author"></a>
 Nasir Shariff
