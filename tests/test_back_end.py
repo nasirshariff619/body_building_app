@@ -25,8 +25,8 @@ class TestBase(TestCase):
         db.session.remove()
         db.drop.all()
 
-class TestViews(TestBase):
-    def test_new_workout_get(self):
+class TestRead(TestBase):
+    def test_new_workout_read(self):
         response = self.client.get(url_for('new_workout'))
         self.assertEqual(response.status_code, 200)
 
