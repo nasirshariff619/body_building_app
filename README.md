@@ -131,7 +131,7 @@ The python files that were successfully tested and had a coverage of 100% were t
 
 Unfortunately, only 35% coverage of the routes.py file was achieved and only 4 tests were passed. These tests included the app creation, set up and teardown. Another two successful tests were the apps ability to view the new workout page and delete a workout. I made many attempts to increase both the number of tests and the coverage with regards to the file routes.py, however I was unsuccessful in completing tests for the specified lines as displayed in the image of the test output above. Overall, I was only able to to achieve 61% total coverage.
 
-Furthermore, the console output from the Jenkins build can be seen below:
+Furthermore, the console output from the Jenkins build, which automates the unit testing, can be seen below:
 ![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/101716216/163992212-1a487b01-85f7-452b-b7e9-ebf4ba8bc476.png)
 
 Looking forward, due to the fact this was an topic I was neither confident or succesful in, I aim to increase my knowledge on unit testing so that, in the future I can achieve 100% pytest coverage.
